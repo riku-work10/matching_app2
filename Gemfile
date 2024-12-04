@@ -39,7 +39,7 @@ gem "bootsnap", require: false
 #追加したgem
 gem 'devise'
 
-gem 'carrierwave', '2.2.2'
+gem 'carrierwave', '3.0.7'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
