@@ -18,5 +18,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   root 'top#index'
-  resources :users, only: [:show]
+  resources :users, only: [:show, :index]
 end
